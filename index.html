@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PMC CHILEFORCE SPA</title>
+  <meta name="description" content="Seguridad privada y protección industrial con personal acreditado OS-10. Zona centro y sur de Chile." />
+  <style>
+    :root{
+      --azul:#0a1f44;
+      --gris:#f1f3f5;
+      --texto:#333;
+      --dorado:#d4af37;
+      --azul2:#142850;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;font-family:Arial,Helvetica,sans-serif;color:var(--texto);background:#f8f9fa;scroll-behavior:smooth}
+    a{color:inherit}
+    header.hero{
+      background:linear-gradient(rgba(10,31,68,.6),rgba(10,31,68,.6)), url('https://images.unsplash.com/photo-1581091012184-5c1dcd11e8b4') center/cover no-repeat;
+      color:#fff;
+      text-align:center;
+      padding:96px 20px;
+      animation:fadeIn 1.6s ease;
+    }
+    header.hero h1{font-size:42px;margin:0 0 10px}
+    header.hero p{margin:0 0 20px;font-size:18px;color:#fff}
+    .cta{background:var(--dorado);color:#000;padding:12px 18px;border-radius:999px;text-decoration:none;font-weight:700;display:inline-block}
+    nav{
+      position:sticky;top:0;z-index:10;
+      background:var(--azul2);
+      display:flex;gap:20px;justify-content:center;padding:10px 12px
+    }
+    nav a{color:#fff;text-decoration:none;font-weight:700;opacity:.95;transition:opacity .2s}
+    nav a:hover{opacity:1;color:var(--dorado)}
+    section{max-width:1100px;margin:0 auto;padding:48px 20px;animation:fadeIn .8s ease}
+    h2{color:var(--azul);margin-top:0}
+    .lead{font-size:18px}
+    .grid{display:grid;gap:20px}
+    .grid-2{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+    .card{background:#fff;border-radius:14px;box-shadow:0 6px 20px rgba(0,0,0,.06);padding:20px;transition:.25s transform,.25s box-shadow}
+    .card:hover{transform:translateY(-4px);box-shadow:0 12px 28px rgba(0,0,0,.12)}
+    .card img{width:100%;height:160px;object-fit:cover;border-radius:10px;margin-bottom:12px}
+    ul.check{padding-left:20px}
+    ul.check li{margin:8px 0}
+    .band{background:var(--gris);border-top:1px solid #e9ecef;border-bottom:1px solid #e9ecef}
+    footer{background:var(--azul);color:#fff;text-align:center;padding:24px}
+    .whatsapp-btn{position:fixed;right:18px;bottom:18px;background:#25d366;color:#fff;
+      width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+      font-size:26px;text-decoration:none;box-shadow:0 8px 22px rgba(0,0,0,.25);transition:transform .2s}
+    .whatsapp-btn:hover{transform:scale(1.08)}
+    @keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+  </style>
+</head>
+<body>
+
+<header class="hero">
+  <h1>PMC CHILEFORCE SPA</h1>
+  <p>Seguridad y logística con personal altamente calificado y acreditado OS‑10.</p>
+  <a class="cta" href="#contacto">Solicitar presupuesto</a>
+</header>
+
+<nav>
+  <a href="#quienes">Quiénes somos</a>
+  <a href="#servicios">Servicios</a>
+  <a href="#politica">Política & Objetivos</a>
+  <a href="#certificaciones">Certificaciones</a>
+  <a href="#cobertura">Cobertura</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="quienes">
+  <h2>Quiénes somos</h2>
+  <p class="lead">
+    Desde el año 2000, David Gil Barak impulsó estudios de mercado y optimización de recursos
+    para responder a la creciente necesidad de personal calificado en Chile. En 2014 se fundó
+    <strong>Gomverg Sociedad Ltda.</strong> y en 2022 evolucionamos a <strong>PMC CHILEFORCE SPA</strong>,
+    una empresa moderna con escuela de formación y enfoque en valores, ética y profesionalismo.
+  </p>
+  <div class="grid grid-2">
+    <div>
+      <h3>Misión</h3>
+      <p>Exceder las expectativas de nuestros clientes ofreciendo servicios de seguridad privada,
+      recursos humanos, formación y selección, con atención cercana, transparente y comprometida.
+      Entregamos confianza y tranquilidad mediante un servicio de calidad y alto compromiso con el resguardo de personas y bienes.</p>
+    </div>
+    <div>
+      <h3>Visión</h3>
+      <p>Consolidarnos en el mercado combinando <strong>tradición</strong>, <strong>modernidad</strong> y
+      <strong>responsabilidad social y empresarial</strong>, utilizando tecnología de vanguardia y promoviendo
+      la seguridad y salud ocupacional (ISO 45001).</p>
+    </div>
+  </div>
+</section>
+
+<section id="servicios" class="band">
+  <section>
+    <h2>Servicios</h2>
+    <div class="cards">
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07a" alt="Seguridad y Protección Industrial" />
+        <h3>Seguridad y Protección Industrial</h3>
+        <ul class="check">
+          <li>Guardias acreditados OS‑10 (ex FF.AA. en retiro).</li>
+          <li>Prevención y disuasión, control de accesos y rondas.</li>
+          <li>Activación de protocolos de emergencia.</li>
+        </ul>
+      </article>
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1581091870622-9b6c1a48f646" alt="Monitoreo CCTV" />
+        <h3>Monitoreo CCTV</h3>
+        <ul class="check">
+          <li>Supervisión en cabina y en terreno.</li>
+          <li>Atención de alarmas y visión nocturna.</li>
+          <li>Registro e informes diarios de incidencias.</li>
+        </ul>
+      </article>
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1618328932548-d5f7c639e6f8" alt="Seguridad K-9" />
+        <h3>Seguridad K‑9</h3>
+        <ul class="check">
+          <li>Unidades caninas entrenadas para disuasión y detección.</li>
+          <li>Operación en eventos, industrias y recintos críticos.</li>
+        </ul>
+      </article>
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1573497019410-2b7e3e8e8d7a" alt="Asesorías en Seguridad" />
+        <h3>Asesorías en Seguridad</h3>
+        <ul class="check">
+          <li>Mejora continua bajo Ley 3.607.</li>
+          <li>Operativas, manuales y cumplimiento normativo.</li>
+          <li>Prevención de riesgos con expertos SST.</li>
+        </ul>
+      </article>
+    </div>
+
+    <h3>Funciones del Guardia</h3>
+    <ul class="check">
+      <li>Rondas (a pie o vehículo), control e identificación de personas y vehículos.</li>
+      <li>Orientación de visitas y registro de materiales/mercancías.</li>
+      <li>Monitoreo de cámaras, atención de alarmas y custodia de llaves.</li>
+      <li>Prevención de delitos, infracciones y actos vandálicos.</li>
+      <li>Detención de intrusos y entrega a autoridades con las pruebas.</li>
+    </ul>
+  </section>
+</section>
+
+<section id="politica">
+  <h2>Política & Objetivos</h2>
+  <p><strong>Política de seguridad:</strong> salvaguardar la vida e integridad del público, colaboradores y patrimonio,
+  evitando alarmas innecesarias, con eficiencia, profesionalismo y apego a normas.</p>
+  <p><strong>Objetivo:</strong> entregar un servicio de calidad con máximo compromiso en seguridad y prevención, neutralizando
+  riesgos y pérdidas para asegurar la continuidad operacional de nuestros clientes.</p>
+  <h3>Sistema de Gestión SST</h3>
+  <p>Prevenir lesiones y enfermedades laborales, proporcionar entornos de trabajo seguros y saludables y
+  minimizar riesgos mediante medidas de prevención y protección eficaces (ISO 45001).</p>
+</section>
+
+<section id="certificaciones" class="band">
+  <section>
+    <h2>Certificaciones</h2>
+    <ul class="check">
+      <li>Empresa de Seguridad acreditada OS‑10 de Carabineros de Chile.</li>
+      <li>Cumplimiento Ley N° 16.744 (accidentes del trabajo y enfermedades profesionales).</li>
+      <li>Afiliación a Mutual de Seguridad IST.</li>
+    </ul>
+  </section>
+</section>
+
+<section id="cobertura">
+  <h2>Cobertura</h2>
+  <ul class="check">
+    <li>Presencia en la zona centro y sur de Chile.</li>
+    <li>Direcciones comerciales:
+      <ul>
+        <li>Parcela N° 23, Fundo El Sauce, Quilpué.</li>
+        <li>Parcela N° 27, Santa Rosa de Esmeralda, Melipilla.</li>
+      </ul>
+    </li>
+  </ul>
+</section>
+
+<section id="contacto" class="band">
+  <section>
+    <h2>Contacto</h2>
+    <div class="grid grid-2">
+      <div>
+        <p><strong>PMC CHILEFORCE SPA</strong> — RUT: 77.634.984-4</p>
+        <p><strong>Representante legal:</strong> David Gil Barak<br/>
+           📞 +56 9 6563 8785 — 📧 <a href="mailto:gilbarak1979@gmail.com">gilbarak1979@gmail.com</a></p>
+        <p><strong>Socio Gerente de Transporte y Maquinaria:</strong> Rafael Silva Lobos — 📞 +56 9 7125 4621</p>
+        <p><strong>Supervisor General de Operaciones:</strong> Pablo Espinoza — 📞 +56 9 7866 9077 — 📧 <a href="mailto:pablo_andres_1970@hotmail.com">pablo_andres_1970@hotmail.com</a></p>
+      </div>
+      <div>
+        <p><strong>Supervisores AG. PPI</strong></p>
+        <ul class="check">
+          <li>Hernán Calderón — 📞 +56 9 9004 3694</li>
+          <li>David Meza — 📞 +56 9 4053 2662</li>
+          <li>Fernanda Navarro — 📞 +56 9 4876 1864</li>
+          <li><strong>Supervisor ITO Mantención:</strong> Jaime Carreño — 📞 +56 9 4052 1781</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</section>
+
+<a class="whatsapp-btn" href="https://wa.me/56965638785" target="_blank" aria-label="WhatsApp">💬</a>
+
+<footer>
+  <p>&copy; 2025 PMC CHILEFORCE SPA — Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
